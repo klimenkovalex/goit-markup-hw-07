@@ -295,23 +295,23 @@ header {
 
 /* Description */
 
-.section_description {
+.section-description {
   margin-bottom: 94px;
 }
 
-.description {
+.section-description__subject {
   display: flex;
 }
 
-.description_title:not(:last-child) {
+.section-description__title:not(:last-child) {
   margin-right: 30px;
 }
 
-.description_title {
+.section-description__title {
   display: inline-block;
 }
 
-.description-list {
+.section-description__label {
   margin-bottom: 10px;
   width: 270px;
   font-weight: 700;
@@ -325,7 +325,7 @@ header {
   justify-content: flex-end;
 }
 
-.coment {
+.section-description__coment {
   width: 270px;
   font-weight: 400;
   font-size: 14px;
@@ -338,7 +338,7 @@ header {
   padding-bottom: 30px;
 }
 
-.disc_img {
+.section-description__icon {
   padding: 25px 100px;
   background-color: #f5f4fa;
 }
@@ -697,7 +697,6 @@ header {
 /* Footer */
 
 .conteiner_footer {
-  display: inline-block;
   display: flex;
 }
 
