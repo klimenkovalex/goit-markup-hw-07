@@ -345,11 +345,11 @@ header {
 
 /* About */
 
-.conteiner_our {
+.section__about-box {
   position: relative;
 }
 
-.about-work {
+.section__about-text {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -357,25 +357,25 @@ header {
   color: #212121;
 }
 
-.about_work {
+.section__about-list {
   display: flex;
 }
 
-.about_img:not(:last-child) {
+.section__about-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.about_img {
+.section__about-item {
   padding-bottom: 94px;
 }
 
-.thumb {
+.section__about-wrap {
   position: relative;
   overflow: hidden;
   width: 370px;
 }
 
-.thumb > .label {
+.section__about-wrap > .section__about-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,7 +394,7 @@ header {
 
 /* Our team */
 
-.section_team {
+.section__team {
   background-color: #f5f4fa;
 }
 
