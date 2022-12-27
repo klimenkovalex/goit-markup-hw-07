@@ -297,23 +297,23 @@ header {
 
 /* Description */
 
-.section-description {
+.section_description {
   margin-bottom: 94px;
 }
 
-.section-description__subject {
+.description {
   display: flex;
 }
 
-.section-description__title:not(:last-child) {
+.description_title:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-description__title {
+.description_title {
   display: inline-block;
 }
 
-.section-description__label {
+.description-list {
   margin-bottom: 10px;
   width: 270px;
   font-weight: 700;
@@ -327,7 +327,7 @@ header {
   justify-content: flex-end;
 }
 
-.section-description__coment {
+.coment {
   width: 270px;
   font-weight: 400;
   font-size: 14px;
@@ -340,11 +340,11 @@ header {
   padding-bottom: 30px;
 }
 
-.section-description__icon {
+.disc_img {
   padding: 25px 100px;
+  /* outline: 1px solid #e80b85; */
   background-color: #f5f4fa;
 }
-
 /* About */
 
 .section__about-box {
