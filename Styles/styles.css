@@ -59,19 +59,24 @@ header {
   height: 80px;
 }
 
-.item {
+.header__list-item {
+  display: flex;
+  text-align: center;
+} 
+
+.header__link-item {
   display: flex;
   text-align: center;
 }
 
-.header_logo {
+.header__list-logo {
   margin-right: 93px;
   padding-top: 25px;
   padding-bottom: 24px;
   display: flex;
 }
 
-.header_list {
+.header__list {
   vertical-align: middle;
   display: flex;
   text-align: center;
@@ -106,7 +111,7 @@ header {
 
 .studio,
 .portfolio,
-.header_item {
+.header__list-item {
   position: relative;
 }
 
@@ -117,29 +122,29 @@ header {
   color: #2196f3;
 }
 
-.header_item {
+.header__list-item {
   display: flex;
 }
 
-.header_list .header_item + .header_item {
+.header__list .header__list-item + .header__list-item {
   margin-left: 50px;
 }
 
 /* <!--Top Line--> */
 
-.out_list {
+.header__link {
   display: flex;
   vertical-align: middle;
   margin-left: auto;
   text-align: center;
 }
 
-.out_list .item {
+.header__link .header__link-item {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.out_list .item + .item {
+.header__link .header__link-item + .header__link-item {
   margin-left: 50px;
 }
 
@@ -164,7 +169,7 @@ header {
   color: #ffffff;
 }
 
-.header_contac {
+.header__list-link {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -173,15 +178,15 @@ header {
 }
 
 .item_svg:hover,
-.mail:hover,
-.tel:hover,
-.header_contac:hover {
+.header__link-mail:hover,
+.header__link-tel:hover,
+.header__list-link:hover {
   color: #2196f3;
 }
 
 /* Top line */
 
-.mail {
+.header__link-mail {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,13 +197,13 @@ header {
   color: #757575;
 }
 
-.envelope {
+.header__link-mail {
   margin-right: 10px;
   align-items: center;
   fill: #757575;
 }
 
-.tel {
+.header__link-tel {
   display: flex;
   height: 16px;
   font-weight: 500;
@@ -208,23 +213,23 @@ header {
   color: #757575;
 }
 
-.smartphone {
+.header__link-phone {
   margin-right: 10px;
   align-items: center;
   fill: #757575;
 }
 
-.out_list .envelope:focus,
-.out_list .envelope:hover,
-.out_list .smartphone:focus,
-.out_list .smartphone:hover {
+.header__link .header__link-mail:focus,
+.header__link .header__link-mail:hover,
+.header__link .header__link-phone:focus,
+.header__link .header__link-phone:hover {
   fill: #2196f3;
 }
 
-.out_list .mail:focus,
-.out_list .mail:hover,
-.out_list .tel:focus,
-.out_list .tel:hover {
+.header__link .header__link-mail:focus,
+.header__link .header__link-mail:hover,
+.header__link .header__link-tel:focus,
+.header__link .header__link-tel:hover {
   fill: #2196f3;
 }
 
