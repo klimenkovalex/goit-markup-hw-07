@@ -222,8 +222,8 @@ header {
   fill: #757575;
 }
 
-.header__link .header__link-mail:focus,
-.header__link .header__link-mail:hover,
+.header__link .header__link-svg:focus,
+.header__link .header__link-svg:hover,
 .header__link .header__link-phone:focus,
 .header__link .header__link-phone:hover {
   fill: #2196f3;
