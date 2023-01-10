@@ -59,6 +59,11 @@ header {
   height: 80px;
 }
 
+.header__list-items {
+  display: flex;
+  text-align: center;
+} 
+
 .header__list-item {
   display: flex;
   text-align: center;
@@ -109,8 +114,6 @@ header {
   overflow: hidden;
 }
 
-.studio,
-.portfolio,
 .header__list-item {
   position: relative;
 }
@@ -122,7 +125,7 @@ header {
   color: #2196f3;
 }
 
-.header__list-item {
+.header__list {
   display: flex;
 }
 
@@ -197,7 +200,7 @@ header {
   color: #757575;
 }
 
-.header__link-mail {
+.header__link-svg {
   margin-right: 10px;
   align-items: center;
   fill: #757575;
