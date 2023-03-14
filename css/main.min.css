@@ -1,10 +1,1 @@
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-} /*# sourceMappingURL=main.min.css.map */
+.current::after{background-color:green}.header__list-logo{color:#000}/*# sourceMappingURL=main.min.css.map */

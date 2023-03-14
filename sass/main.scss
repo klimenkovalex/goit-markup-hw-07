@@ -1,13 +1,8 @@
-html {
-  box-sizing: border-box;
+.current::after {
+  background-color: green;
 }
+$color: red;
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
+.header__list-logo {
   color: black;
 }
