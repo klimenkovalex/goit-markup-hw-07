@@ -92,7 +92,7 @@ img {
     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
 }
 
-.page-header .container {
+.page-header .header-navi {
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ img {
   width: 100vw;
   height: 100vh;
   padding: 30px;
-  background-color: tomato;
+  background-color: var(--white-color);
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -142,14 +142,15 @@ img {
   }
 }
 
+
+/* <!--Top Line--> */
+
 .menu-container .menu-toggle {
   position: absolute;
   top: 20px;
   right: 15px;
   color: #fff;
 }
-
-/* <!--Top Line--> */
 
 .mobile-menu {
   padding: 0;
@@ -327,17 +328,17 @@ img {
 /* Our team */
 
 .section_team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   background-color: var(--cloud-color);
 }
 
 .team_tekst {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   font-weight: 700;
   font-size: 36px;
   line-height: calc(40 / 36);
-  text-align: center;
+  /* text-align: center; */
   color: var(--naviblue-color);
 }
 
@@ -360,21 +361,21 @@ img {
   }
 } */
 
-@media (min-width: 468px) {
+/* @media (min-width: 468px) {
   .team_img:not(:last-child) {
     margin-right: 24px;
   }
   .team_img:nth-child(2n) {
     margin-right: 0;
   }
-   .team_img:nth-last-child(-n + 3) { */
+   .team_img:nth-last-child(-n + 3) { 
      margin-bottom: 0; 
   } 
-   /* .user_team {
+   .user_team {
     display: flex;
     text-align: center;
-  } */
-}
+  }
+} */
 
 /* @media (min-width: 428px) {
   .social-icon {
@@ -399,19 +400,19 @@ img {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12), 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 428px) {
+/* @media (min-width: 428px) {
   .team_img:not(:last-child) {
     margin-right: 24px;
   }
-}
+} */
 
 /* .team_img:not(:last-child) {
   margin-right: 24px;
 } */
 
 .our_img {
-  margin-bottom: 24px;
-  display: block;
+  /* margin-bottom: 24px; */
+  /* display: block; */
   background-color: #fff;
 }
 
@@ -432,13 +433,13 @@ img {
 }
 
 .social-icon {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
   padding: 0;
 
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .social-item {
@@ -521,8 +522,8 @@ img {
 
   @media (min-width 392px) {
     position: absolute;
-    /* max-width: 408px;
-    min-height: 584px; */
+    max-width: 408px;
+    min-height: 584px;
     top: 50%;
     left: 50%;
   }

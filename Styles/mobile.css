@@ -1,0 +1,65 @@
+@media screen and (min-width: 480px) {
+  .conteiner {
+    max-width: 480px;
+  }
+}
+
+/* Description */
+
+.description {
+  display: block;
+}
+
+.description_title {
+  margin-bottom: 72px;
+}
+
+/* Our team */
+
+.conteine-team {
+flex-direction: column;
+
+   padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: var(--cloud-color);
+}
+
+.team_tekst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.user_team {
+    /* flex-direction: column; */
+}
+
+.team_img {
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team_work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 32px; */
+}
+
+.social-icon:not(:last-child) {
+    margin-bottom: 32px;
+}

@@ -12,12 +12,13 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./Styles/styles.css" />
     <link rel="stylesheet" href="./Styles/icons.css" />
+    <link rel="stylesheet" href="./Styles/mobile.css" />
+    <link rel="stylesheet" href="./Styles/tablet.css" />
+    <link rel="stylesheet" href="./Styles/desktop.css" />
     <title>Web studio</title>
   </head>
   <body class="body">
@@ -32,8 +33,8 @@
             ><span class="header-web">WEB</span
             ><span class="header-webstudio">STUDIO</span></a
           >
-          <ul class="header-list list menu">
-            <li class="header-item">
+          <ul class="header-list menu">
+            <li class="header-item list">
               <a
                 class="header-contac current"
                 href="./index.html"
@@ -41,7 +42,7 @@
                 >Studio</a
               >
             </li>
-            <li class="header-item">
+            <li class="header-item list">
               <a
                 class="header-contac"
                 href="./portfolio.html"
@@ -49,13 +50,14 @@
                 >Portfolio</a
               >
             </li>
-            <li class="header-item">
+            <li class="header-item list">
               <a class="header-contac" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="out_list list menu">
-          <li class="item">
+        <!--Top Line-->
+        <ul class="out_list menu">
+          <li class="item list">
             <a
               class="mail"
               href="mailto:info@devstudio.com"
@@ -64,30 +66,27 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
+          <li class="item list">
             <a class="tel" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
-        <div class="container">
-          <button class="menu-toggle js-open-menu">
-            <svg
-              width="24"
-              height="24"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </div>
+        <button class="menu-toggle js-open-menu">
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
     </header>
-    <!-- js-menu-container -->
     <div class="menu-container js-menu-container">
       <button class="menu-toggle js-close-menu">
         <svg
@@ -104,8 +103,8 @@
           ></path>
         </svg>
       </button>
-      <ul class="header-list list mobile-menu">
-        <li class="header-item">
+      <ul class="header-list mobile-menu">
+        <li class="header-item link list">
           <a
             class="header-contac current"
             href="./index.html"
@@ -113,7 +112,7 @@
             >Studio</a
           >
         </li>
-        <li class="header-item">
+        <li class="header-item link list">
           <a
             class="header-contac"
             href="./portfolio.html"
@@ -121,12 +120,13 @@
             >Portfolio</a
           >
         </li>
-        <li class="header-item">
+        <li class="header-item link list">
           <a class="header-contac" href="">Contacts</a>
         </li>
       </ul>
-      <ul class="out_list list mobile-menu">
-        <li class="item">
+      <!--Top Line-->
+      <ul class="out_list mobile-menu">
+        <li class="item link list">
           <a
             class="mail"
             href="mailto:info@devstudio.com"
@@ -135,7 +135,7 @@
             info@devstudio.com
           </a>
         </li>
-        <li class="item">
+        <li class="item link list">
           <a class="tel" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
@@ -144,10 +144,7 @@
     <main class="main">
       <section class="section hero">
         <div class="conteiner">
-          <h1 class="hero-title">
-            Effective Solutions <br />
-            for Your Business
-          </h1>
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero_btm" data-modal-open>
             <span class="button_text">Order Service</span>
           </button>
@@ -501,16 +498,17 @@
           </ul>
         </div>
         <form class="footer_form">
-          <h2 class="footer_text">Subscribe</h2>
+          <p class="footer_text">Subscribe</p>
           <div class="footer_scribe">
-            <label for="user_email" class="footer_email"></label>
             <input
+              class="footer-input"
+              type="text"
               type="email"
               name="email"
               id="user_email"
               placeholder="E-mail"
             />
-            <button class="button_tlgm">
+            <button class="button_tlgm" type="submit">
               Subscribe
               <samp>
                 <svg class="footer_svg" width="24" height="24">
@@ -526,38 +524,36 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="form">
-          <div class="headline">
-            <h2 class="form_headline">
-              Leave your contacts and we will call you back
-            </h2>
-          </div>
-          <div class="form_field">
+          <p class="form_headline">
+            Leave your contacts and we will call you back
+          </p>
+          <div class="form_field form-link">
             <label for="name" class="form_name">Name</label>
             <input type="text" class="form_input" name="name" id="name" />
-            <svg class="laibel_svg" width="12" height="12">
+            <svg class="laibel_svg" width="18" height="24">
               <use href="./img/icons.svg#icon-Vector-1"></use>
             </svg>
           </div>
-          <div class="form_field">
+          <div class="form_field form-link">
             <label for="tel" class="form_name">Phone</label>
             <input type="text" class="form_input" name="tel" id="tel" />
-            <svg class="laibel_svg" width="13" height="13">
+            <svg class="laibel_svg" width="18" height="24">
               <use href="./img/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </div>
-          <div class="form_field">
-            <label for="tel" class="form_name">Email</label>
+          <div class="form_field form-link">
+            <label for="mail" class="form_name">Email</label>
             <input type="text" class="form_input" name="mail" id="mail" />
-            <svg class="laibel_svg" width="15" height="12">
+            <svg class="laibel_svg" width="18" height="24">
               <use href="./img/icons.svg#icon-Vector-2"></use>
             </svg>
           </div>
           <div class="form_field">
-            <label for="mail" class="form_name">Comment</label>
+            <label for="Coment" class="form_textarea">Comment</label>
             <textarea
               class="form_coment"
-              name=""
-              id=""
+              name="Coment"
+              id="Coment"
               cols="30"
               rows="10"
               placeholder="Text input"
@@ -569,19 +565,23 @@
                 id="check"
                 type="checkbox"
                 class="form_checkbox"
-                name=""
-              /><span class="form-icon"> </span>
-              I accept the terms and conditions of the
-              <samp class="form_text">Privacy Policy</samp></label
-            >
+                name="checkbox"
+              /><span class="form-icon"></span>
+              <span>
+                I accept the terms and conditions of the
+                <a class="form_text" href="">Privacy Policy</a>
+              </span>
+            </label>
           </div>
-          <button type="submit" class="button_submit">Send</button>
+          <div class="button-form">
+            <button type="submit" class="button_submit">Send</button>
+          </div>
         </form>
-        <div data-modal-close class="modal_img">
+        <button type="submit" data-modal-close class="modal_img">
           <svg class="modal_close" width="8" height="8">
             <use href="./img/icons.svg#icon-Vector"></use>
           </svg>
-        </div>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
