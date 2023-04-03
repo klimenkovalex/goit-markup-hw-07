@@ -309,9 +309,10 @@
 }
 
 .footer_nav {
+  display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
-  justify-content: center;
 }
 
 .footer_web {
@@ -324,6 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* flex-direction: column; */
 
   margin-bottom: 72px;
 
@@ -334,6 +336,9 @@
 }
 
 .footer-coment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 268px;
 }
 
